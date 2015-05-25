@@ -1,14 +1,37 @@
-h1
+body
 {
-	align-self: center;
+	width: auto;
+	background-color: #eeeddd;
 }
 
-h2
+h1
 {
-	align-self: center;
+	margin: 0 auto;
 }
 
 #header
 {
-	background-color: teal;
+	min-width: 90%;
+	text-align: center;
+	background-color: #fffeee;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+#header h2
+{
+	font-size: 16px;
+	color: #333333;
+	margin: 0 auto;
+}
+
+#content
+{
+	background-color: #fffeee;
+	padding: 10px;
+	margin-top: 10px;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
